@@ -3,7 +3,7 @@ var router = express.Router();
 var controller = require('../controllers/arquivo')(/* construtor */);
 
 
-router.put('/', controller.gravar);
+router.put('/gravar', controller.gravar);
 
 
 module.exports = router;
